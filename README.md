@@ -23,14 +23,18 @@ BÀI TOÁN:
 A/ Chiến lược hợp nhất (agglomerative):
 Bước 1: Phân cụm phân cấp theo chiến lược hợp nhất bắt đầu bằng cách coi mỗi điểm dữ liệu là một cụm riêng biệt.
 Bước 2: Xác định khoảng cách giữa các cụm với nhau. Gom 2 cụm có khoảng cách gần nhất với nhau. Đồng thời xác định tâm mới của cụm vừa gom. Tiếp tục lặp lại cho đến khi chỉ còn 1 cụm duy nhất.
-![Quy trình gom cụm hợp nhất](https://user-images.githubusercontent.com/81065789/147846115-bdc89dce-dad9-49bb-bdad-c24981f9f3ca.gif)
-![Kết quả](https://user-images.githubusercontent.com/81065789/147846163-1790ff52-9961-4106-8621-492f87214012.png)
+-- Quy trình gom cụm hợp nhất:
+![gif](https://user-images.githubusercontent.com/81065789/147846115-bdc89dce-dad9-49bb-bdad-c24981f9f3ca.gif)
+-- Kết quả
+![re](https://user-images.githubusercontent.com/81065789/147846163-1790ff52-9961-4106-8621-492f87214012.png)
 
 B/ Chiến lược phân chia (devise):
 Bước 1: Phân cụm phân cấp theo chiến lược phân chia bắt đầu bằng cách coi mọi điểm dữ liệu đều nằm trong một cụm duy nhất (S1).
 Bước 2: Chúng ta sẽ lựa chọn ra điểm F là điểm đầu tiên thuộc cụm mới vì khoảng cách so với các điểm còn lại là xa nhất. Tiếp tục lặp lại cho các điểm dữ liệu trong S1.
 Bước 3: Đệ quy trên từng cụm con đến khi mỗi điểm dữ liệu là 1 cụm riêng biệt.
-![Quy trình gom cụm phân chia](https://user-images.githubusercontent.com/81065789/147846182-3c0a1a32-4cdf-4b5b-a959-e337d0487798.gif)
-![Kết quả](https://user-images.githubusercontent.com/81065789/147846186-28452018-47e7-4b04-832c-70885926a757.png)
+-- Quy trình gom cụm phân chia:
+![gif](https://user-images.githubusercontent.com/81065789/147846182-3c0a1a32-4cdf-4b5b-a959-e337d0487798.gif)
+-- Kết quả
+![re](https://user-images.githubusercontent.com/81065789/147846186-28452018-47e7-4b04-832c-70885926a757.png)
 
 
