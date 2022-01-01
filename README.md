@@ -2,7 +2,7 @@
 
 Có nhiều phương pháp để thực hiện gom nhóm dữ liệu, mỗi cách sẽ có mục đích cũng như hiệu quả khác nhau, tùy vào mục đích và yêu cầu của bài toán. Trong bài viết này, nhóm sẽ đề cập đến một trong những phương pháp gom cụm khá phổ biến, đó là: 
 
-							Hierarchical Clustering (phân cụm phân cấp)
+					Hierarchical Clustering (phân cụm phân cấp)
 
 Khi sử dụng thuật toán Hierarchical Clustering, chúng ta không cần phải khai báo trước số lượng cụm, thay vào đó, thuật toán chỉ yêu cầu phải xác định thước đo về sự khác biệt giữa hai cụm (không giao nhau) với nhau. 
 
