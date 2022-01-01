@@ -1,13 +1,15 @@
-# CS116-HierarchicalClustering
-
-Bài toán phân cụm là một nhánh ứng dụng chính của lĩnh vực Học không giám sát (Unsupervised Learning), trong đó dữ liệu huấn luyện trong bài toán chưa được dán nhãn. Trong trường hợp này, thuật toán sẽ tìm cách phân cụm - chia dữ liệu thành từng nhóm có đặc điểm tương tự nhau, nhưng đồng thời đặc tính giữa các nhóm đó lại phải càng khác biệt càng tốt. 
+# TÓM TẮT NỘI DUNG
 
 Có nhiều phương pháp để thực hiện gom nhóm dữ liệu, mỗi cách sẽ có mục đích cũng như hiệu quả khác nhau, tùy vào mục đích và yêu cầu của bài toán. Trong bài viết này, nhóm sẽ đề cập đến một trong những phương pháp gom cụm khá phổ biến, đó là: 
-Hierarchical Clustering (phân cụm phân cấp)
+
+							Hierarchical Clustering (phân cụm phân cấp)
 
 Khi sử dụng thuật toán Hierarchical Clustering, chúng ta không cần phải khai báo trước số lượng cụm, thay vào đó, thuật toán chỉ yêu cầu phải xác định thước đo về sự khác biệt giữa hai cụm (không giao nhau) với nhau. 
+
 Phương pháp phân cụm phân cấp hoạt động thông qua việc nhóm dữ liệu thành một cây các cụm. Theo phương pháp này, chúng ta biểu diễn được những sự phân cấp, trong đó mỗi cụm được hình thành bằng cách hợp nhất tất cả các cụm ở cấp thấp hơn. Sự phân cấp này được thể hiện qua đồ thị dendrogram.
- 
+
+![image](https://user-images.githubusercontent.com/81065789/147846422-f4cd896f-0963-4f91-96f5-8dd8f9e94e6d.png)
+
 Trước khi thực hiện gom cụm, ta cần phải xác định tiêu chí gom cụm và điều kiện dừng của bài toán. Khi đã xác định được, bài toán được mô tả như sau:
 
 			    WHILE (điều kiện dừng = = False) DO
